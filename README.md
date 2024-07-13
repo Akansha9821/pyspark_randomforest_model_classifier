@@ -1,7 +1,6 @@
-#### Project Name: Tredence-CC_Integration
+#### Project Name: CC_Integration
 
 #### Project Information
-- **Nestle SPOCs:** Sudarshan Ramesh
 - **Created By:** Akansha Rana, Aman Chandel
 - **Networks:** NPW, Frozen, Ambient, Chilled
 
@@ -19,8 +18,8 @@ The purpose of this project is to build a classification model for the DRP Salva
 - For this model, we need columns like Time duration before move (days), Value of move. After that, train the model for daily DRP output and merge predictions with DRP output recommendations from 2023 to 2024 data and then save the record into Azure Data Lake Storage (ADLS).
 
 #### Training Recommendation Input Paths
-- **From 2023-2024:** `solutions/ift/ift/outbound/Tredence_CC_Integration/Outbound/training_data`
-- **Daily Training Recommendation Input:** `solutions/ift/ift/outbound/Tredence_CC_Integration/Inbound`
+- **From 2023-2024:** `solutions/ift/ift/outbound/CC_Integration/Outbound/training_data`
+- **Daily Training Recommendation Input:** `solutions/ift/ift/outboundCC_Integration/Inbound`
 
 #### Output Folder
 - `solutions/ift/ift/outbound/Tredence_CC_Integration/Inbound/DRP_All_Model_Predection/`
